@@ -5,17 +5,17 @@
   "dependencies": {
     "CodeHollow.FeedReader": "[1.2.4]",
     "UiPath.Cryptography.Activities": "[1.2.1]",
-    "UiPath.Excel.Activities": "[2.12.3]",
-    "UiPath.System.Activities": "[22.4.4]",
-    "UiPath.Testing.Activities": "[22.4.3]",
-    "UiPath.UIAutomation.Activities": "[22.4.7]",
-    "UiPath.WebAPI.Activities": "[1.11.1]"
+    "UiPath.Excel.Activities": "[2.15.0-preview]",
+    "UiPath.System.Activities": "[22.10.0-preview]",
+    "UiPath.Testing.Activities": "[22.10.0]",
+    "UiPath.UIAutomation.Activities": "[22.10.0-preview]",
+    "UiPath.WebAPI.Activities": "[1.13.0-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.4.4.0",
-  "projectVersion": "1.0.12",
+  "projectVersion": "1.0.13",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -30,7 +30,8 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": true
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -42,51 +43,7 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "1349432c-e227-4928-a50c-f942aef13715",
-        "dataVariationFilePath": ".variations\\Tests_Tests.json",
-        "testCaseType": "TestCase",
-        "fileName": "Tests\\GeneralTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "309bdaee-8b5a-4e36-bd23-0ceaececa474",
-        "testCaseType": "TestCase",
-        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "c0296993-c0a8-48fb-b93c-ab2b3c32b0a9",
-        "testCaseType": "TestCase",
-        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "a6d8684e-7cc8-426c-81ca-e9b0c9dc5dd4",
-        "testCaseType": "TestCase",
-        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "ca4abfe5-4034-419f-82fc-bf8bc2b7c189",
-        "testCaseType": "TestCase",
-        "fileName": "Tests\\MainTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "47237dbd-16b2-4aff-bf46-ce4b2d5e5e8c",
-        "testCaseType": "TestCase",
-        "fileName": "Tests\\ProcessTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "7eee3cdf-3377-4f0e-9515-c8fc19746db1",
-        "testCaseType": "TestCase",
-        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
-      }
-    ],
+    "fileInfoCollection": [],
     "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
